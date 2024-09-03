@@ -55,6 +55,7 @@ namespace cadastroAlunosGridView
             {
                 gvAlunos.Rows.Clear();
             }
+            lbTotal.Text=gvAlunos.RowCount.ToString();
         }
 
         private void btFechar_Click(object sender, EventArgs e)
